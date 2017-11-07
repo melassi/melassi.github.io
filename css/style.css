@@ -942,7 +942,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(255,0,0, 0.8);
+  background: rgba(255,0,0, 0.9);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -974,7 +974,7 @@ form label {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: red;
+  color: white;
   /* amounts and words */
 }
 
