@@ -84,7 +84,25 @@
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Mustafa &amp; Reem</h1>
 							<h2>We Are Getting Married</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
+							<div class="simply-countdown simply-countdown-one">
+                  </section>
+                <!-- Load the script here -->
+                <script src="dev/simplyCountdown.js"></script>
+                <script>
+                    /**
+                     * initialization example.
+                     * You need to call the simplyCountdown function and give it two parameters:
+                     * 1 - the CSS selector of the countdown container
+                     * 2 - the plugin params as described in documentation here http://vincentloy.github.io/simplyCountdown.js/
+                     * Example: Init countdown until this date : 04/11/2017 at 10am (4th November 2017 10:00)
+                     */
+                    simplyCountdown('.simply-countdown-example', {
+                        year: 2019,
+                        month: 7,
+                        day: 7
+                    });
+                </script>
+               </div>
 							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
 						</div>
 					</div>
