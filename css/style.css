@@ -974,7 +974,7 @@ form label {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: white;
+  color: red;
   /* amounts and words */
 }
 
