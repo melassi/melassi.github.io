@@ -1839,6 +1839,7 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+  position: center;
 }
 
 /*# sourceMappingURL=style.css.map */
