@@ -20,10 +20,10 @@
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 150s linear infinite 0s;
-    -moz-animation: imageAnimation 150s linear infinite 0s;
-    -o-animation: imageAnimation 150s linear infinite 0s;
-    -ms-animation: imageAnimation 150s linear infinite 0s;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+    -moz-animation: imageAnimation 36s linear infinite 0s;
+    -o-animation: imageAnimation 36s linear infinite 0s;
+    -ms-animation: imageAnimation 36s linear infinite 0s;
     animation: imageAnimation 150s linear infinite 0s;
 }
 .cb-slideshow li div {
