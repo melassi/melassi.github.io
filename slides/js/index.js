@@ -27,6 +27,7 @@ function fullScreen(element) {
 }
 
 window.onload = function() {
+  fullScreen(container);
   imgs = document.getElementById('slideshow').children;
   interval = 8000;
   currentPic = 0;
