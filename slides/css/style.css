@@ -25,7 +25,7 @@ body {
 }
 
 .nightmode {
-    --color-page-background: rgba(0, 0, 20, .95);
+    --color-page-background: rgba(100, 0, 20, .95);
   --color-primary-light: rgb(10,10,10);
   --color-primary-dark: rgb(240,240,240);
 }
