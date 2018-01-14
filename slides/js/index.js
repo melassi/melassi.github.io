@@ -1,19 +1,3 @@
-var d930 = new Date(2010, 12, 21, 16, 30, 0, 0), // today 9:30:00:000
-    d931 = new Date(2010, 12, 21, 9, 31, 0, 0), // today 9:31:00:000
-    t930 = d930.getTime(),
-    t931 = d931.getTime();
-
-
-var time930 = new Date(2010, 12, 21, 16, 30, 0, 0).getTime(),
-    now = new Date();
-
-if(now.getTime() >= time930){
-  
-document.querySelector('[data-switch-contrast]').addEventListener('click', function() {
-  document.body.classList.toggle('nightmode');
-});
-
-}
 
 function cancelFullScreen() {
     if (document.cancelFullScreen) {
@@ -44,6 +28,16 @@ function fullScreen(element) {
 }
 
 window.onload = function() {
+    if (element.requestFullScreen) {
+        element.requestFullScreen();
+    } else if (element.webkitRequestFullScreen) {
+        element.webkitRequestFullScreen();
+    } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+    }
+    link = document.getElementById("container");
+    link.removeAttribute("onclick");
+    link.setAttribute("onclick", "cancelFullScreen()");
   imgs = document.getElementById('slideshow').children;
   interval = 8000;
   currentPic = 0;
