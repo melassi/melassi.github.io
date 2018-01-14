@@ -22,12 +22,11 @@ function fullScreen(element) {
         element.mozRequestFullScreen();
     }
     link = document.getElementById("container");
-    link.removeAttribute("onclick");
+    link.removeAttribute("onload");
     link.setAttribute("onclick", "cancelFullScreen()");
 }
 
 window.onload = function() {
-  fullScreen(container);
   imgs = document.getElementById('slideshow').children;
   interval = 8000;
   currentPic = 0;
