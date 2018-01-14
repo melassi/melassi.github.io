@@ -28,16 +28,7 @@ function fullScreen(element) {
 }
 
 window.onload = function() {
-    if (element.requestFullScreen) {
-        element.requestFullScreen();
-    } else if (element.webkitRequestFullScreen) {
-        element.webkitRequestFullScreen();
-    } else if (element.mozRequestFullScreen) {
-        element.mozRequestFullScreen();
-    }
-    link = document.getElementById("container");
-    link.removeAttribute("onclick");
-    link.setAttribute("onclick", "cancelFullScreen()");
+  
   imgs = document.getElementById('slideshow').children;
   interval = 8000;
   currentPic = 0;
