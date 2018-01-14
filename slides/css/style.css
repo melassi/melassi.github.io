@@ -11,15 +11,17 @@
 100% { opacity: 0; }
 }
 body { 
+
   font-family: Avenir, Arial, sans-serif; 
   margin: 0;
   font-size: 0;
+  height: 100%;
+  overflow: hidden
 }
 figure#slideshow { 
-  width: 80%; 
+  width: 100%; 
   margin: 0 auto; 
   position: relative; 
-  border: 1px solid #fff;
   cursor: pointer;
 }
 figure#slideshow img { 
