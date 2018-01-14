@@ -1,4 +1,3 @@
-
 function cancelFullScreen() {
     if (document.cancelFullScreen) {
         document.cancelFullScreen();
@@ -28,7 +27,6 @@ function fullScreen(element) {
 }
 
 window.onload = function() {
-  
   imgs = document.getElementById('slideshow').children;
   interval = 8000;
   currentPic = 0;
