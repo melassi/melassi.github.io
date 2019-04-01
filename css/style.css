@@ -953,6 +953,12 @@ form label {
   animation: pulse 1s ease infinite;
 }
 
+@media screen and (max-width: 480px) {
+.simply-countdown > .simply-section .simply-seconds-section{
+display: none;
+}
+  }
+
 @keyframes pulse {
   0% {
     transform: scale(1);
