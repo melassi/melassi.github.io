@@ -954,7 +954,7 @@ form label {
 }
 
 @media screen and (max-width: 480px) {
-.simply-countdown > .simply-section.simply-seconds-section{
+.simply-section.simply-seconds-section{
 display: none;
 }
   }
