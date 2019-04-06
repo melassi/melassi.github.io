@@ -125,12 +125,12 @@
 		</div>
 	</div>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+	<a id="information"><div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);"></a>
 		<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-						<a id="information"><span>Our Special Event</span></a>
+						<span>Our Special Event</span>
 						<h2>Wedding Information</h2>
 					</div>
 				</div>
@@ -423,6 +423,15 @@
         day: 07,
         enableUtc: false
     });
+</script>
+<script>
+$("nav").find("a").click(function(e) {
+    e.preventDefault();
+    var section = $(this).attr("href");
+    $("html, body").animate({
+        scrollTop: $(section).offset().top
+    });
+});
 </script>
 
 	</body>
