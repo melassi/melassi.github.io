@@ -70,6 +70,7 @@
 /* Hide the slides by default */
 .mySlides {
   display: none;
+  background: black;
 }
 
 /* Next & previous buttons */
