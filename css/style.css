@@ -5,6 +5,18 @@
   font-weight: normal;
   font-style: normal;
 }
+/*handles the vertical centering*/
+.Centerer
+{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.Centered
+{
+    display: inline-block;
+    vertical-align: middle;
+}
 /* =======================================================
 *
 * 	Lightbox Style
@@ -20,11 +32,6 @@
   clear: both;
 }
 
-/* Create four equal columns that floats next to eachother */
-.column {
-  float: left;
-  width: 25%;
-}
 
 /* The Modal (background) */
 .modal {
@@ -43,11 +50,10 @@
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: black;
   margin: auto;
   padding: 0;
-  width: 90%;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 /* The Close Button */
@@ -69,6 +75,7 @@
 
 /* Hide the slides by default */
 .mySlides {
+ with=100%;
   display: none;
   background: black;
 }
@@ -93,6 +100,7 @@
 
 /* Position the "next button" to the right */
 .next {
+	position: absolute;
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -1218,7 +1226,7 @@ display: none;
   height: 150px;
 }
 .couple-half .groom img, .couple-half .bride img {
-  width: 150px;
+  width: 130px;
   height: 150px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1331,7 +1339,7 @@ display: none;
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
-  color: #828282;
+  color: #D3D3D3;
 }
 .fh5co-heading span {
   text-transform: uppercase;
