@@ -75,9 +75,17 @@
 
 /* Hide the slides by default */
 .mySlides {
- with=100%;
+ max-with=80%;
+ height=80hv;
   display: none;
   background: black;
+}
+@media screen and (max-width: 768px) {
+  .mySlides{
+    width: 100%;
+	height=auto;
+	
+  }
 }
 
 /* Next & previous buttons */
