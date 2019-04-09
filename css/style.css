@@ -64,7 +64,6 @@
 
 /* Hide the slides by default */
 .mySlides {
-	max-witdh=80%;
 	height=80hv;
 	display: none;
 	background: black;
